@@ -1,0 +1,25 @@
+.root{
+    display: flex;
+    border: 1px solid white;
+}
+.content_div{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.image{
+    max-width: 300px;
+    max-height: 300px;
+    border-right: 1px dotted white;
+}
+.name{
+    font-weight: bold;
+    padding-top: 5px;
+    border:  1px solid brown;
+}
+.Mac_des{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
