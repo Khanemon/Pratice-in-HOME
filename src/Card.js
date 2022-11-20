@@ -9,7 +9,7 @@ export const Card =()=>{
         </div> 
             <div className="content_div">
                 <div className="name">MacBook</div>
-            <p className="Mac_des">You can see the macbook air 2020 vertion. Whitch is very powerfull laptop. It has Apple M1 selicon chip set.  </p>
+            <p className="Mac_des">You can see the macbook air 2020 vertion. Whitch is very powerfull laptop. It has Apple M1 selicon chip set. Now i am edit in github  </p>
         </div>
         </div>
     </>
