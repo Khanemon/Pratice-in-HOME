@@ -36,7 +36,7 @@ console.log(fruitObjects);
 
 
 
-?*
+/*
 export const DataTable=({rowes, columns})=>{
     return<table>
            <thead>
