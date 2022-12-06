@@ -105,6 +105,8 @@ export default App;
 
 
 
+DataTable.js
+
 import React from "react";
 export const DataTable=({columns,rows})=>{
     console.log(rows);
