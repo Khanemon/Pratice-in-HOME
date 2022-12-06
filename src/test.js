@@ -74,3 +74,49 @@ export const DataTable=({columns,rows})=>{
 }
 
   */
+
+
+
+
+/*
+App.js
+
+import './App.css';
+import'./Card.css';
+import {DataTable} from "./DataTable.js"
+import {Card} from './Card.js';
+function App() {
+  let columns=[{prop: "id",title: "id"},
+  {prop: "name",title: "Name"}]
+
+  let rows= [{id: 1, name: "Mango"},
+  {id: 2, Name: "Banna"}]
+  return (
+    <div className="App">
+      <header className="App-header">
+      <Card />
+      </header>
+<DataTable rows={rows} columns={columns}/>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+import React from "react";
+export const DataTable=({columns,rows})=>{
+    console.log(rows);
+    return <table className="table table-bordered">
+        <thead>
+            <tr>
+           {columns.map(column=><td key={column.prop}>{column.title}</td>)}
+           </tr>
+        </thead>
+        <tbody>
+            {rows.map(row=> <tr key={row.id}>{columns.map(column=><td key={column.prop}>{row[column.prop]}</td>) }</tr>)}
+        </tbody>
+</table>
+}
+  */
