@@ -47,4 +47,30 @@ export const DataTable=({rowes, columns})=>{
 </tbody>
         </table>
 }
+
+
+
+
+
+
+
+
+
+
+import React from "react";
+
+export const DataTable=({columns,rows})=>{
+    console.log(rows);
+    return <table className="table table-bordered">
+        <thead>
+            <tr>
+           {columns.map(column=><td key={column.prop}>{column.title}</td>)}
+           </tr>
+        </thead>
+        <tbody>
+            {rows.map(row=> <tr key={row.id}>{columns.map(column=><td key={column.prop}>{row[column.prop]}</td>) }</tr>)}
+        </tbody>
+</table>
+}
+
   */
