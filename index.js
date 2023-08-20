@@ -54,6 +54,14 @@ console.log("Apple" == "Orange")
 console.log(NaN == NaN)//*************important
 // → false
 
+*/
+
+// function repeat(n, action) {
+//   for (let i = 0; i < n; i++) {
+//     action(i);
+//   }
+// };
+// repeat(3, console.log);
 
 
 //Logical Operation
@@ -79,11 +87,3 @@ console.log(Infinity || null)
 console.log(null || "Emon")
 console.log("Emon" || Infinity)
 console.log("Agnes" || "user")
-*/
-
-function repeat(n, action) {
-  for (let i = 0; i < n; i++) {
-    action(i);
-  }
-};
-repeat(3, console.log);
