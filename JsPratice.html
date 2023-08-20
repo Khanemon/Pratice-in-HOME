@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Pratice</title>
+</head>
+<body>
+    <!-- //2nd Pratice from anisul islam video. (JS video num :8)
+
+        //Get 1st name
+        var firNam = prompt("Enter your first name: ");
+        var lasNam = prompt("Enter your last name: ");
+        document.write("Your full name is : " + firNam +" "+ lasNam + "<br/>");
+        
+        var fullNam = (firNam + lasNam);
+
+        //var len = length.fullNam;
+        document.write("Your full name length is : " + fullNam.length + "<br/>");
+
+        document.write("Your full name in Uppercase is : " + fullNam.toUpperCase() + "<br/>");
+        var slic = fullNam.slice(1, 2)
+        document.write("2nd position after slice is : " + slic + "<br/>");
+        document.write("2nd position char is : " + fullNam.charAt(1) + "<br/>");
+        //document.write("Hello Wrold");
+
+       
+       
+        //3rd task
+
+        var num1 = prompt("Enter first number : ");
+        var num2 = prompt("Enter second number : ");
+
+        // num1 = parseInt(num1);
+        // num2 = parseInt(num2);
+
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+
+        addi = num1+num2;
+        sub = num1-num2;
+        multi = num1*num2;
+        diviti = num1/num2;
+        modula = num1%num2;
+        power = num1**num2;
+
+
+        document.write("The addition of num1 nad num2 is " + "("+ num1 + "+" + num2 + ")" + "=" + addi + "<br/>" );
+        document.write("The subtraction of num1 nad num2 is " + "(" + num1 + "-" + num2 + ")" + "=" + sub + "<br/>" );
+        document.write("The multification of num1 nad num2 is " + "("+ num1 + "*" + num2 + ")" + "=" + multi + "<br/>" );
+        document.write("The divition of num1 nad num2 is " + "("+ num1 + "/" + num2 + ")" + "=" + diviti + "<br/>" );
+        document.write("The modulation of num1 nad num2 is " + "("+ num1 + "%" + num2 + ")" + "=" + modula + "<br/>" );
+        document.write("The power of num1 nad num2 is " + "("+ num1 + "**" + num2 + ")" + "=" + power + "<br/>" );
+        
+
+        //Area Calculation
+        var height = parseFloat(prompt("Enter height = "));
+        var weidth = parseFloat(prompt("Enter weidth = "));
+
+        var square = height * weidth;
+        var regtengular = height * weidth;
+        var traingal = (height * weidth)/2;
+        var a,b;
+        a =parseFloat(prompt("Enter trapizodal base length1 = "));
+        b =parseFloat(prompt("Enter trapizodal base length2 = "));
+        var trapizodal = ((a+b) * height)/2;
+        var parallelogram = height * weidth;
+
+        var length =parseFloat(prompt("Enter Rhmbos/Kite length = "));
+        var rhombus = (length * height)/2;
+        var kite = (length * height)/2;
+
+        document.write("The area of a square is = " + square + "<br/>");
+        document.write("The area of a square is = " + regtengular + "<br/>");
+        document.write("The area of a square is = " + traingal + "<br/>");
+        document.write("The area of a square is = " + trapizodal + "<br/>");
+        document.write("The area of a square is = " + parallelogram + "<br/>");
+        document.write("The area of a square is = " + rhombus + "<br/>");
+        document.write("The area of a square is = " + kite + "<br/>");
+
+     
+        //Farenheight to Celcious convert.
+
+
+        //Relational Operator and Logical Operator
+
+        
+
+    //4rd Task( Gread Cheack)
+
+    var mark = parseInt(prompt("Enter your exam mark = "));
+
+    if( mark > 100 || mark < 0 )
+    {document.write("You enter wrong number")}
+
+    else if(mark>=80 && mark<=100)
+    {document.write("You got A+")}
+
+    else if(mark>=80 && mark<=100)
+    {document.write("You got A+")}
+
+    else if(mark>=70 && mark<=79)
+    {document.write("You got A")}
+
+    else if(mark>=60 && mark<=69)
+    {document.write("You got A-")}
+
+    else if(mark>=50 && mark<=59)
+    {document.write("You got B")}
+
+    else if(mark>=40 && mark<=49)
+    {document.write("You got C")}
+
+    else if(mark>=33 && mark<=39)
+    {document.write("You got D")}
+    
+    else
+    {document.write("You are Fail")}
+
+    
+
+    var latter = prompt("Enter a letter : ");
+    latter = latter.toLowerCase();
+    
+    switch(latter){
+        case "a" : 
+            document.write("You enter vowel");
+            break;
+        case "e" : 
+            document.write("You enter vowel");
+            break;
+        case "i" : 
+        document.write("You enter vowel");
+        break;
+        case "o" : 
+        document.write("You enter vowel");
+        break;
+        case "u" : 
+        document.write("You enter vowel");
+        break;
+        default : 
+        document.write("You enter consonent");
+
+        
+        case "a" : 
+        case "e" : 
+        case "i" : 
+        case "o" : 
+        case "u" : 
+        document.write("You enter vowel");
+        break;-->
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
